@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<rect width="1280" height="720" fill="#121214"/>
+<text x="85" y="110" font-family="Helvetica, Arial, sans-serif" font-size="40" font-weight="600" fill="#ece9e2" letter-spacing="-1">Topic in. Episode out.</text>
+<text x="1195" y="110" text-anchor="end" font-family="monospace" font-size="16" fill="#8d8a83" letter-spacing="2">ONE GPU · NO PAID APIS</text>
+<rect x="85" y="170" width="330" height="200" rx="6" fill="#1a1a1d" stroke="#2a2a2e" stroke-width="2"/>
+<text x="105" y="204" font-family="monospace" font-size="15" fill="#ffd23f" letter-spacing="2">01</text>
+<circle cx="327" cy="244" r="22" stroke="#ece9e2" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/><line x1="343" y1="260" x2="361" y2="278" stroke="#ece9e2" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="105" y="324" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="600" fill="#ece9e2">Research</text>
+<text x="105" y="350" font-family="monospace" font-size="15" fill="#8d8a83" letter-spacing="1">news + wiki</text>
+<line x1="425" y1="270.0" x2="465" y2="270.0" stroke="#8d8a83" stroke-width="2"/><path d="M457,264.0 L465,270.0 L457,276.0" fill="none" stroke="#8d8a83" stroke-width="2"/>
+<rect x="475" y="170" width="330" height="200" rx="6" fill="#1d1b12" stroke="#ffd23f" stroke-width="2"/>
+<text x="495" y="204" font-family="monospace" font-size="15" fill="#ffd23f" letter-spacing="2">02</text>
+<line x1="695" y1="232" x2="755" y2="232" stroke="#ece9e2" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/><line x1="695" y1="250" x2="747" y2="250" stroke="#ece9e2" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/><line x1="695" y1="268" x2="735" y2="268" stroke="#ece9e2" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="495" y="324" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="600" fill="#ece9e2">Script</text>
+<text x="495" y="350" font-family="monospace" font-size="15" fill="#8d8a83" letter-spacing="1">local LLM</text>
+<line x1="815" y1="270.0" x2="855" y2="270.0" stroke="#8d8a83" stroke-width="2"/><path d="M847,264.0 L855,270.0 L847,276.0" fill="none" stroke="#8d8a83" stroke-width="2"/>
+<rect x="865" y="170" width="330" height="200" rx="6" fill="#1a1a1d" stroke="#2a2a2e" stroke-width="2"/>
+<text x="885" y="204" font-family="monospace" font-size="15" fill="#ffd23f" letter-spacing="2">03</text>
+<line x1="1085" y1="242" x2="1085" y2="258" stroke="#ece9e2" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/><line x1="1097" y1="230" x2="1097" y2="270" stroke="#ece9e2" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/><line x1="1109" y1="220" x2="1109" y2="280" stroke="#ece9e2" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/><line x1="1121" y1="236" x2="1121" y2="264" stroke="#ece9e2" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/><line x1="1133" y1="226" x2="1133" y2="274" stroke="#ece9e2" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/><line x1="1145" y1="240" x2="1145" y2="260" stroke="#ece9e2" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="885" y="324" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="600" fill="#ece9e2">Voice</text>
+<text x="885" y="350" font-family="monospace" font-size="15" fill="#8d8a83" letter-spacing="1">TTS + lip-sync</text>
+<rect x="85" y="426" width="330" height="200" rx="6" fill="#1a1a1d" stroke="#2a2a2e" stroke-width="2"/>
+<text x="105" y="460" font-family="monospace" font-size="15" fill="#ffd23f" letter-spacing="2">04</text>
+<circle cx="335" cy="492" r="14" stroke="#ece9e2" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M309,536 Q335,502 361,536" stroke="#ece9e2" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="105" y="580" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="600" fill="#ece9e2">Characters</text>
+<text x="105" y="606" font-family="monospace" font-size="15" fill="#8d8a83" letter-spacing="1">image models</text>
+<line x1="425" y1="526.0" x2="465" y2="526.0" stroke="#8d8a83" stroke-width="2"/><path d="M457,520.0 L465,526.0 L457,532.0" fill="none" stroke="#8d8a83" stroke-width="2"/>
+<rect x="475" y="426" width="330" height="200" rx="6" fill="#1a1a1d" stroke="#2a2a2e" stroke-width="2"/>
+<text x="495" y="460" font-family="monospace" font-size="15" fill="#ffd23f" letter-spacing="2">05</text>
+<rect x="693" y="484" width="64" height="44" rx="4" stroke="#ece9e2" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M717,496 L737,506 L717,516 Z" fill="#ece9e2"/>
+<text x="495" y="580" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="600" fill="#ece9e2">Animate</text>
+<text x="495" y="606" font-family="monospace" font-size="15" fill="#8d8a83" letter-spacing="1">Remotion</text>
+<line x1="815" y1="526.0" x2="855" y2="526.0" stroke="#8d8a83" stroke-width="2"/><path d="M847,520.0 L855,526.0 L847,532.0" fill="none" stroke="#8d8a83" stroke-width="2"/>
+<rect x="865" y="426" width="330" height="200" rx="6" fill="#1a1a1d" stroke="#2a2a2e" stroke-width="2"/>
+<text x="885" y="460" font-family="monospace" font-size="15" fill="#ffd23f" letter-spacing="2">06</text>
+<path d="M1085,510 L1101,510 L1109,488 L1119,530 L1127,510 L1145,510" stroke="#ece9e2" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="885" y="580" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="600" fill="#ece9e2">Master</text>
+<text x="885" y="606" font-family="monospace" font-size="15" fill="#8d8a83" letter-spacing="1">QC + ffmpeg</text>
+<rect x="655" y="186" width="132" height="28" rx="14" fill="#ffd23f"/><text x="721" y="205" text-anchor="middle" font-family="monospace" font-size="13" fill="#121214" letter-spacing="1">HUMAN REVIEW</text>
+</svg>
