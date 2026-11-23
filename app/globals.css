@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --ink: #0a0a0b;
+  --paper: #ece9e2;
+  --signal: #ff4f1f;
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+html {
+  background: var(--ink);
+  color: var(--paper);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+body {
+  background: transparent;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: var(--signal);
+  color: var(--ink);
+}
+
+:focus-visible {
+  outline: 1.5px solid var(--signal);
+  outline-offset: 4px;
+  border-radius: 2px;
+}
+
+body.has-cursor,
+body.has-cursor a,
+body.has-cursor button {
+  cursor: none;
+}
+
+/* Film grain over everything; static so it costs nothing per frame. */
+.grain {
+  position: fixed;
+  inset: -50%;
+  z-index: 60;
+  pointer-events: none;
+  opacity: 0.07;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+.vignette {
+  background: radial-gradient(ellipse at 50% 45%, transparent 35%, rgba(10, 10, 11, 0.85) 100%);
+}
+
+/* Shown when WebGL is unavailable: a still, CSS-only iris. */
+.eye-fallback {
+  position: absolute;
+  right: 10vw;
+  top: 50%;
+  width: min(46vw, 560px);
+  aspect-ratio: 1;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  background:
+    radial-gradient(circle, #0a0a0b 0 15%, rgba(236, 233, 226, 0.9) 15.5% 16.5%, transparent 17%),
+    repeating-conic-gradient(from 0deg, rgba(255, 79, 31, 0.55) 0 1.2deg, rgba(255, 79, 31, 0.15) 1.2deg 2.6deg);
+  mask: radial-gradient(circle, #000 0 62%, transparent 64%);
+  opacity: 0.8;
+}
+@media (max-width: 767px) {
+  .eye-fallback {
+    right: 50%;
+    top: 30%;
+    transform: translate(50%, -50%);
+    width: 72vw;
+  }
+}
+
+/* Scroll-revealed elements start hidden only when motion is allowed and JS has run. */
+.js .reveal {
+  opacity: 0;
+  transform: translateY(28px);
+}
+
+.word {
+  display: inline-block;
+}
+
+.hairline {
+  background: linear-gradient(90deg, rgba(236, 233, 226, 0.18), rgba(236, 233, 226, 0.04));
+  height: 1px;
+}
+
+.mono-label {
+  font-family: var(--font-geist-mono), ui-monospace, monospace;
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.scrim {
+  background: linear-gradient(180deg, rgba(10, 10, 11, 0) 0%, rgba(10, 10, 11, 0.78) 12%, rgba(10, 10, 11, 0.78) 88%, rgba(10, 10, 11, 0) 100%);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  .js .reveal {
+    opacity: 1;
+    transform: none;
+  }
+}
